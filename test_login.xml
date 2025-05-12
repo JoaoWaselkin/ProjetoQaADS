@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCase>
+<selenese>
+	<command>open</command>
+	<target><![CDATA[http://localhost:8081/stacks/home]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[xpath=//div[@id='root']/div/div/div/div/div/div/div[3]/div]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>open</command>
+	<target><![CDATA[http://localhost:8081/stacks/login]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[xpath=//div[@id='root']/div/div/div/div/div/div/div[2]/div]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[xpath=//input[@value='']]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>type</command>
+	<target><![CDATA[xpath=//input[@value='ewertonreis991@gmail.com']]]></target>
+	<value><![CDATA[ewertonreis991@gmail.com]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[xpath=//input[@value='']]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>type</command>
+	<target><![CDATA[xpath=//input[@value='24022014#sS']]]></target>
+	<value><![CDATA[24022014#sS]]></value>
+</selenese>
+<selenese>
+	<command>open</command>
+	<target><![CDATA[http://localhost:8081/stacks/cachorroScreen]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[xpath=//div[@id='root']/div/div/div[2]/div/div/div/div/div[5]]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>open</command>
+	<target><![CDATA[http://localhost:8081/stacks/login]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[xpath=//div[@id='root']/div/div/div[3]/div/div/div/div[2]/div/div/div/div[4]/div]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+</TestCase>
